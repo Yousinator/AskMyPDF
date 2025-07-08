@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "askmypdf"
+version = "0.1.0"
+description = ""
+authors = ["Yousinator <y.omusabeh@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.46.1"
+langchain = "^0.3.26"
+langchain-anthropic = "^0.3.17"
+langchain-community = "^0.3.27"
+sentence-transformers = "^5.0.0"
+faiss-cpu = "^1.11.0"
+pypdf = "^5.7.0"
+streamlit-chat = "^0.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
